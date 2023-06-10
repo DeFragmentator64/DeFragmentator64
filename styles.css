@@ -6,6 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
+/* 
+* {padding: 0;
+margin:0 ; 
+
+} */
+
 
 body {
 background: #f1f1f1;
@@ -47,12 +53,19 @@ border-radius: 28px ;
 box-shadow: 4px 4px 14px rgba(0,0,0,025)
 }
 
+.info {
+    margin-bottom: 20px;
+}
+
+
 .info p {
     color: #86898f;
     margin: 0;
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
+
+
 }
     /* text-transform: lowercase; */
     /* letter-spacing: 15px; */
@@ -106,7 +119,19 @@ border-radius: 20px;
 
 }
 
+.card h2 {
+    margin-bottom: 10px;
+}
 
+.list {
+   padding: 0px 40px; 
+   list-style: none;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
 
 
 
