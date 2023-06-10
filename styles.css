@@ -10,20 +10,35 @@
 body {
 background: #f1f1f1;
 color: #0f141e;
+Font: normal 16px 'roboto' , sans-serif;
+
+}
 
 /* font-size: 16px;
 font-weight:normal;
 font-family: 'Roboto', sans-serif; */
 
-Font: normal 16px 'roboto' , sans-serif;
+
 
 
 /* 'Lucida Sans', 'Lucida Sans Regular', 
 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
  Verdana, sans-serif ; */
 
-
+a { color : black;
+text-decoration: none;
 }
+
+a:hover { text-decoration: Underline;
+}
+
+
+a:active {color: blue
+}
+
+a:visited {color:grey
+}
+
 
 /* .avatar { */
     #avatar { 
@@ -49,7 +64,7 @@ box-shadow: 4px 4px 14px rgba(0,0,0,025)
    max-width: 750px;
    margin: auto;
 }
-
+/* 
 .social {
 background: green;
 padding: 15px 20px 25px 30px;
@@ -60,7 +75,7 @@ border: 5px solid red;
 border-bottom-style: double;
 border-top-width: 15px ;
 border-right-color: blue ;
-}
+} */
 
 /* 
 .box-model > div {
@@ -72,6 +87,24 @@ border-right-color: blue ;
     box-sizing: border-box;  } 
 */
 
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+Padding: 15px 20px;
+
+margin-bottom: 20px;
+border-radius: 20px;
+
+}
 
 
 
