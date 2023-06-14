@@ -9,31 +9,24 @@
 
 </head>
 <body>
-<div class="container ">
+<div class="container">
     <div class="info">
-        <!-- <table cellspacing="15">
-            <tr>
-                <td> -->
-        <!-- <img src="ava.jpg" alt="а тут моя фотка" 
-                    class="avatar" /> -->
+            <img src="ava.jpg" alt="а тут моя фотка" id="avatar" />
 
-        <img src="ava.jpg" alt="а тут моя фотка" id="avatar" />
-
-        </td>
-        <td>
-            <h4>Иван </h4>
-            <p>Я основатель YouTube канала</p>
+            <div class="info-text">
+                <h1>Иван Сусанин</h1>
+                <p>Я основатель YouTube канала</p>
             <p><strong>Я люблю путешествовать,заниматься
-                    спортом и программировать <strong> </p>
+                        спортом и программировать <strong> </p>
 
-            <h2>Мои соц сети</h2>
+                <h2>Мои соц сети</h2>
 
-            <ul type="square">
-                <a href="https://t.me"> Telegramm</a> |
-                <a href="https://ngs.ru"> NGS </a> |
-                <a href="https://instagram.com">Instagram </a>
-            </ul>
-
+                <ul type="square">
+                    <a href="https://t.me"> Telegramm</a> |
+                    <a href="https://ngs.ru"> NGS </a> |
+                    <a href="https://instagram.com">Instagram </a>
+                </ul>
+            </div>
     </div>
 
     <!-- </td>
@@ -47,9 +40,9 @@
 
     <!-- </div> -->
 
-        <div class="card bg-yellow list">
+        <div class="card bg-yellow">
             <h2>Мое хобби</h2>
-            <ol>
+            <ol class="list">
                 <li>Блогер</li>
                 <li>Быстрая Езда</li>
                 <li>Спорт</li>
@@ -60,25 +53,28 @@
     <div class="card bg-green">
         <h2>Опыт работы</h2>
 
-        <hr>
-
-    <table>
-
+    <table class="table">
         <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год</th>
+            <td>LPtracker</td>
+            <td>Software Engineer</td>
+            <td>2015 - 2016</td>
         </tr>
 
         <tr>
             <td>EpaM</td>
             <td>Software Engineer</td>
-            <td>2016 -2017</td>
+            <td>2016 - 2017</td>
         </tr>
         <tr>
             <td>Software Outsorcing Services</td>
             <td>Lead Frontend</td>
-            <td>2017 -2019</td>
+            <td>2017 - 2019</td>
+        </tr>
+        <!-- <tr class="temp"> -=подкрашивает строку=- --> 
+        <tr>
+            <td>YouTube</td>
+            <td>Blogger</td>
+            <td>2019 - now</td>
         </tr>
 
     </table>
@@ -86,44 +82,59 @@
 
 
     <div class="card bg-red">
-        <H2> YouTube Курсы</H2>
-        <a href="youtube.html">Посмотреть список</a>
+        <h2> YouTube Курсы</h2>
+          <ul class="link-list">
+            <li>
+              <a href="hhtp://www.youtube.com/watch?v=Bluxbh9CaQ0">JavaScript Основы для Начинающих - Полный курс за 6 часов</a>
+
+            </li>
+
+            <li>
+           <a href="https://www.youtube.com/watch?v=dNS61T4MmlM"> Docker для начинающих — Полный курс 2021</a>
+
+             </li>
+          </ul>
+       
     </div>
 
-<!-- </div> -->
+            <div class="contact">
+            <h2>Связаться со мной</h2>
+            
+            <form action="/">
+                    <div class="row">
+                        <div class="form-group">
+                        <label for="name">Ваше имя: </label>
+                        <input type="text" id="name" placeholder="начните вводить имя">
+                        
+                        </div>
+                        
+                        <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="Email" placeholder="начните вводить Email">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    </div>
+            
+                    <div class="form-group">
+                    <textarea id="text" rows="2" cols="31"></textarea>
+                    </div>
+            
+                <input class="btn" type="submit" Value="Связаться!">
+                 </form>
+            </div>
+
+                <div class="position">
+                <div class="box"></div>
 
 
-<!-- <div class="box-model">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
- 
-    </div> -->
-   
-
-        <div class="card bg-red" >
-        <h2>Связаться со мной</h2>
-        </div>
-        <form action="/">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="начните вводить имя">
-    
-            <br>
-            <label for="email">Ваше имя:</label>
-            <input type="email" id="email" placeholder="начните вводить имя">
-    
-            <br>
-            <label for="email">Ваше сообщение:</label>
-            <textarea id="text" rows="2" cols="15"></textarea>
-    
-            <br>
-    
-            <Input type="submit" Value="Связаться!">
-        </form>
-        </div>
+                </div>
 
 </div>
+
 
 
     
